@@ -23,7 +23,7 @@
 
 ## 🚀 快速开始
 
-### 在线安��
+### 在线安装
 1. [Chrome Web Store](#) (即将上线)
 2. [Firefox Add-ons](#) (即将上线)
 3. [Edge Add-ons](#) (即将上线)
@@ -79,6 +79,6 @@ zip -r web-qr-code-generator.zip * -x "*.git*" -x "screenshots/*"
 
 ## 📧 联系方式
 
-项目作者 - [@你的Github用户名](https://github.com/你的用户名)
+项目作者 - [@fbzyf](https://github.com/fbzyf)
 
-项目链接: [https://github.com/你的用户名/web-qr-code-generator](https://github.com/你的用户名/web-qr-code-generator) 
+项目链接: [https://github.com/fbzyf/web-qr-code-generator](https://github.com/fbzyf/web-qr-code-generator) 
