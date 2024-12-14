@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Web QR Code Generator",
+  "version": "1.0",
+  "description": "为网页生成二维码的简单工具",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 

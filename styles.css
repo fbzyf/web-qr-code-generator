@@ -1,0 +1,158 @@
+#qrcode-container {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 2147483647;
+  background: white;
+  padding: 6px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: none !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 132px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  transform: none !important;
+  pointer-events: auto;
+  left: auto !important;
+  top: auto !important;
+  float: none !important;
+  clear: none !important;
+  min-width: 132px !important;
+  max-width: 132px !important;
+  min-height: auto !important;
+  max-height: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  overflow: visible !important;
+}
+
+#qrcode-container.show {
+  display: flex !important;
+}
+
+#qrcode-toggle {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 2147483647;
+  width: 32px !important;
+  height: 32px !important;
+  background: white !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+  cursor: pointer !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 6px !important;
+  box-sizing: border-box !important;
+  transition: transform 0.2s ease !important;
+}
+
+#qrcode-toggle:hover {
+  transform: scale(1.1) !important;
+}
+
+#qrcode-toggle img {
+  width: 20px !important;
+  height: 20px !important;
+  object-fit: contain !important;
+}
+
+#qrcode {
+  width: 120px !important;
+  height: 120px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  min-width: 120px !important;
+  max-width: 120px !important;
+  min-height: 120px !important;
+  max-height: 120px !important;
+}
+
+#qrcode img {
+  width: 120px !important;
+  height: 120px !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transform: none !important;
+  position: static !important;
+  min-width: 120px !important;
+  max-width: 120px !important;
+  min-height: 120px !important;
+  max-height: 120px !important;
+  object-fit: contain !important;
+  border: none !important;
+}
+
+.qr-logo {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 1px !important;
+  height: 1px !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+  mix-blend-mode: multiply !important;
+}
+
+.qr-logo img {
+  width: 1px !important;
+  height: 1px !important;
+  object-fit: contain !important;
+  opacity: 0.15 !important;
+  filter: contrast(50%) grayscale(100%) !important;
+}
+
+.page-info {
+  width: 100% !important;
+  text-align: center !important;
+  margin-top: 6px !important;
+  margin-bottom: 0 !important;
+  font-size: 11px !important;
+  color: #333 !important;
+  box-sizing: border-box !important;
+  position: static !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+.page-name {
+  margin-bottom: 3px !important;
+  margin-top: 0 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  max-width: 110px !important;
+  padding: 0 !important;
+  font-size: 11px !important;
+  line-height: 1.3 !important;
+}
+
+.page-title {
+  font-weight: bold !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  max-width: 110px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 11px !important;
+  line-height: 1.3 !important;
+} 
