@@ -7,7 +7,7 @@
 一个轻量级的网页二维码生成器浏览器插件，可以为任意网页快速生成带有网站图标的二维码，方便用户在移动设备上快速访问当前页面。
 
 <div align="center">
-  <img src="screenshots/preview.png" alt="插件预览" width="300"/>
+  <img src="preview.png" alt="插件预览" width="300"/>
 </div>
 
 ## 🌟 功能特点
